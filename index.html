@@ -16,13 +16,16 @@
             Preparation course! <span class="text-fuchsia-700">Sign up now!</span></p>
         <button onclick="del()"><i class="fa-solid fa-xmark"></i></button>
     </div>
- 
-    <header class="relative bg-white md:left-0 md:right-0  top-0 max-w-[1440px] px-5 md:flex md:justify-between md:flex-row mx-auto py-4">
+
+    <header
+        class="relative bg-white md:left-0 md:right-0  top-0 max-w-[1440px] px-5 md:flex md:justify-between md:flex-row mx-auto py-4">
         <div>
             <a href="#"><img src="./img/Logo.svg" alt=""></a>
         </div>
-        <button onclick="toggle()" id="x-mark" class="md:hidden hidden ml-auto absolute top-5 right-3"><i class="fa-solid fa-xmark"></i></button>
-        <button onclick="toggle()" id="bars" class="md:hidden ml-auto absolute top-5 right-3"><i class="fa-solid fa-bars"></i></button>
+        <button onclick="toggle()" id="x-mark" class="md:hidden hidden ml-auto absolute top-5 right-3"><i
+                class="fa-solid fa-xmark"></i></button>
+        <button onclick="toggle()" id="bars" class="md:hidden ml-auto absolute top-5 right-3"><i
+                class="fa-solid fa-bars"></i></button>
         <div id="nav" class="hidden md:flex md:flex-row flex-col gap-4 justify-between">
             <nav class="flex md:flex-row flex-col items-center gap-3">
                 <ul class="flex flex-col md:flex-row items-center gap-3 text-slate-500 font-semibold">
@@ -34,7 +37,7 @@
                 </ul>
             </nav>
             <div class="flex justify-center items-center gap-3">
-                <button class="hidden md:block" ><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button class="hidden md:block"><i class="fa-solid fa-magnifying-glass"></i></button>
                 <button>Sign in</button>
                 <button class="py-1 px-3 bg-fuchsia-600 text-white rounded-md">Sign up</button>
             </div>
@@ -51,7 +54,8 @@
                         <li class="my-2"><a class="bg-[rgba(0,0,0,0.5)] p-3 rounded-full" href="#">Illustration</a></li>
                         <li class="my-2"><a class="bg-[rgba(0,0,0,0.5)] p-3 rounded-full" href="#">Mobile</a></li>
                         <li class="my-2"><a class="bg-[rgba(0,0,0,0.5)] p-3 rounded-full" href="#">Print</a></li>
-                        <li class="my-2"><a class="bg-[rgba(0,0,0,0.5)] p-3 rounded-full" href="#">Product Design</a></li>
+                        <li class="my-2"><a class="bg-[rgba(0,0,0,0.5)] p-3 rounded-full" href="#">Product Design</a>
+                        </li>
                         <li class="my-2"><a class="bg-[rgba(0,0,0,0.5)] p-3 rounded-full" href="#">Typography</a></li>
                         <li class="my-2"><a class="bg-[rgba(0,0,0,0.5)] p-3 rounded-full" href="#">Web Design</a></li>
                     </ul>
@@ -79,12 +83,12 @@
         </section>
         <section class="max-w-[1440px] mx-auto px-5">
             <div class="flex justify-between my-4 px-4">
-<select class="border-2 outline-none  border-slate-500 rounded-lg py-2 px-3">
-    <option value="">Popular</option>
-    <option value="">Popular</option>
-    <option value="">Popular</option>
-</select>
-<button><i class="fa-solid fa-sliders"></i> Filter</button>
+                <select class="border-2 outline-none  border-slate-500 rounded-lg py-2 px-3">
+                    <option value="">Popular</option>
+                    <option value="">Popular</option>
+                    <option value="">Popular</option>
+                </select>
+                <button><i class="fa-solid fa-sliders"></i> Filter</button>
             </div>
             <div class="grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 my-4">
                 <div class="card flex flex-col gap-3">
@@ -97,7 +101,178 @@
                         <p class="flex gap-2 items-center"><span><img class="rounded-full"
                                     src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
                                     alt=""></span>
+                             <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
+                        <p>
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            210
+                            <span><i class="fa-solid fa-eye"></i></span>
+                            18.5k
+                        </p>
+                    </div>
+                </div>
+                <div class="card flex flex-col gap-3">
+                    <div>
+                        <img class="w-full"
+                            src="https://s3-alpha-sig.figma.com/img/bd4f/be9a/dcb966ae0a5005eca69c16cb8f09d9fe?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kO-Qy8BFqNBruvmuTIK0~gmATa8ghw2U~S6n8y8IMlO9np5zitIsJJuZRrS-~J5vEaf6ho2rBmS44g6MwatWVj2c14FLLx-s9vEST~xF1tkJMImCFmxjlnkgmq2xUEiKc-XDjfL~VJATj8TN6i17tsiikx4t9-sInWrUqSKj-aZ300vVIMSbmynvvvcmW4coWmCLPy0a8bYzuaI9WBSyk8GbSUdMwZ4~z5nWqGAeWw6pOn7du1tQ0hNyqg8wMkRAxA4S9zqJvABokiPSPyA8gNgnDKLf9rveK2lFKZfF9ThIFkZrWIyVsGwiBiBOFQCm5sg6Vl5-g6iOpzN2GHEyQQ__"
+                            alt="">
+                    </div>
+                    <div class="flex gap-3 justify-between items-center">
+                        <p class="flex gap-2 items-center"><span><img class="rounded-full"
+                                    src="https://s3-alpha-sig.figma.com/img/c638/5942/1ca2ffa184f71b225bc71017ab899eb5?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bR4uQ1ZH4wjMz~bPN~SnijOYGb72JzOkqcXmTWlN80ggJTI9aAjsD1rL1fSx8QEMM8NGZ2kNj-D89co76iNJPWR-3x0kPmoxnpbR61SC2JPIvriRuPA-uKJBa~bnlPGlQbuFk5jzX-PxmdNKCfaiG3wCm2XQK0Dob5UHpPNRoLumctaMpOm-kVmA~Xhfs5FdTiyOxF9-0YDQevlxb6lbq9QlvIVXpG2svujRxjRAOsRAW7YQCPj~in5WoeF8BTIPRPJp8ikjWgbtyk6jG7T71el-LMsP1rNIP2mlCaSoRxAp05QGXbML-LT~g7hHYS4LRYQaP-zXqbF85ISae1hQYg__"
+                                    alt=""></span>
+                            Purrweb UI/UX Age <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">TEAM</span></p>
+                        <p>
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            210
+                            <span><i class="fa-solid fa-eye"></i></span>
+                            18.5k
+                        </p>
+                    </div>
+                </div>
+                <div class="card flex flex-col gap-3">
+                    <div>
+                        <img class="w-full"
+                            src="https://s3-alpha-sig.figma.com/img/5104/f54c/a58ba91337211ce275c3f04fb09130fe?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qAlkMcbfY5T5tQVRlzjQSoq8xn2783EOUNLQUPVrOigIXDe9An69xRsHtHU6T~cbYHMLpS95TUv0bIL9ym55822qnrpVmAaf2j1Nf-EbXXRPxknQeWn~GIMHluyEMc~z1F0QmWNwf5k9IxEdyHk3fxO3aciZTeOSQlkJOKMJCQwabbU9TFK2-05bNAjYHvWizo4G1Sy1J9ZVt~lAzHIq2xextxZTOD4biD0az8t0kW-nINVJEudV4BgyUpFP3-n9idrDBZhT0dz7cXvwxtV7qJfYmPlEHl5eM7y7HJvSD3xq2y~8NlMnkTF0C8JWcP1rl90ZbRdWfGrMZpApQOq4DA__"
+                            alt="">
+                    </div>
+                    <div class="flex gap-3 justify-between items-center">
+                        <p class="flex gap-2 items-center"><span><img class="rounded-full"
+                                    src="https://s3-alpha-sig.figma.com/img/474b/19b2/d5f56e16505c2c5602c371b3a2a58ec4?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fjHn-5Ctt8IyiCUf54BbMdVsHpiJ1KSXvy3cTeax5V6YRq4edlooBMYy6Z6xgevgdpdzmh4EmnBmuaXypmVDDLaxxr1U6QSYDuRoaZzZhYkX-bNpU9aukYfBowdxcDPh5RsaWDdHyuMJJzwByrBS7bizNb0xiU7pva5ngeUlq9R9rPsxVqvXpluNtp7P1TVItCH5DgKsVoLhZRZLyB28CHPZHbAGaglMnECJvmooscir9Imvv0gFf164ZRxP5DeLqg~auwvLHV~Rw4Z2plYZ6qhzWqRQ40K7aZPbJibY0XFCoP68vqwFhBqv0PfLJhhFK-3IYM2agV971vvdED0Edg__"
+                                    alt=""></span>
+                            Squarespace <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">TEAM</span></p>
+                        <p>
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            210
+                            <span><i class="fa-solid fa-eye"></i></span>
+                            18.5k
+                        </p>
+                    </div>
+                </div>
+                <div class="card flex flex-col gap-3">
+                    <div>
+                        <img class="w-full"
+                            src="https://s3-alpha-sig.figma.com/img/99bc/c05a/bbbabff6a15f18a83b26e50119e3a24d?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=n~aUpbP1rTy5AaM0QKF72i0RWKVzHQMMXn9zKLjjnVhwtiVE4vYBZ5qaBA6SP6Ok0u5AzUaMWE4pjCBqOPrzI0VXux1pmNBH5t8pEeRXnm7gGLgJsE6gggfX4yV3STJ2GQmPS-MzlhPVQxknnMJO2kB1LNeBy~XbJkOMeexN6tY~BDuV545Ql84XwMRuh-QfoCZSdkzEAfXDj81lGlDlafThkVHga4YBI57oPx1CVEKW77yjFxR-5PcUUjcqgqDYqI5HUPb1xNVZExxF8ukLdjakMnlZVHCArXEP2sD5d7oEvRlI-MofHIzOOWY2gUArN0akJMBnpbyrSF4DJ0j4aQ__"
+                            alt="">
+                    </div>
+                    <div class="flex gap-3 justify-between items-center">
+                        <p class="flex gap-2 items-center"><span><img class="rounded-full"
+                                    src="https://s3-alpha-sig.figma.com/img/c638/5942/1ca2ffa184f71b225bc71017ab899eb5?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bR4uQ1ZH4wjMz~bPN~SnijOYGb72JzOkqcXmTWlN80ggJTI9aAjsD1rL1fSx8QEMM8NGZ2kNj-D89co76iNJPWR-3x0kPmoxnpbR61SC2JPIvriRuPA-uKJBa~bnlPGlQbuFk5jzX-PxmdNKCfaiG3wCm2XQK0Dob5UHpPNRoLumctaMpOm-kVmA~Xhfs5FdTiyOxF9-0YDQevlxb6lbq9QlvIVXpG2svujRxjRAOsRAW7YQCPj~in5WoeF8BTIPRPJp8ikjWgbtyk6jG7T71el-LMsP1rNIP2mlCaSoRxAp05QGXbML-LT~g7hHYS4LRYQaP-zXqbF85ISae1hQYg__"
+                                    alt=""></span>
+                            Purrweb UI/UX Ag <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">TEAM</span></p>
+                        <p>
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            210
+                            <span><i class="fa-solid fa-eye"></i></span>
+                            18.5k
+                        </p>
+                    </div>
+                </div>
+                <div class="card flex flex-col gap-3">
+                    <div>
+                        <img class="w-full"
+                            src="https://s3-alpha-sig.figma.com/img/8be1/b6a1/f63b30cf73339b4f5defd2013ec5a06f?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KJreNIjt6~1PygfFOTLkWyGQWm4Mg0Cv2z0co0yn1Vp41hO73CCRWYr51vbm77Xzi66flOLXl~F2AiK0RSQliffx3bXa8FmjdqecQCg7LI3GNuP4MFrE~wo~FY7tUxuYn6tcODkWc8LPgPFnUdVr6JgFeDaexfxeMI2TmO7QqOP~0a1RZzl0Srput3j4NUg2FT-9rWeGZhqebtRe9aoHrVb2Tphx5gqVVEd5YySvSKULPsfs7mU1RHeVbJhAsrqPZxMp2JuVZwG3fETlxP05kgvZ0-nCaTkq9AjMEv5TB7Tlnb6Nax9Veqf261xfNmYoFkoP1il0jtiX3dRVGEtmdQ__"
+                            alt="">
+                    </div>
+                    <div class="flex gap-3 justify-between items-center">
+                        <p class="flex gap-2 items-center"><span><img class="rounded-full"
+                                    src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
+                                    alt=""></span>
                             Vedant Hegde <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
+                        <p>
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            210
+                            <span><i class="fa-solid fa-eye"></i></span>
+                            18.5k
+                        </p>
+                    </div>
+                </div>
+                <div class="card flex flex-col gap-3">
+                    <div>
+                        <img class="w-full"
+                            src="https://s3-alpha-sig.figma.com/img/1586/f185/5e8357c99bcc671477cade9548ae9e38?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Z~3k3~MOpXzKDPZ5c2aRwJ0itwODIsdtwngQmNy9B1fU0Ft-wU2aX7dcxAkyTjIcYYnjginBa4rIneuoAGD5KCTUXUNmjCFMJSeNwUYr6j0XMM6qCO5iGOZY~LwMnlC~4dhbzk74xviiXhvSNRGnLAyLgUbXlMq7GLEkbTrQM~hQZsp9VdfLycJl0SyOjLi5Cddifx364XlNg2oEeKxuP38w2oC-aQ-PD6-sGvyiHeunWxMdkIQZZgKPUR-nsbxMB95-DitSbL~Qq~-2dQvDElUt6~IKDECofCcNP6xhoGPpLoyI93w1dMEDFjyIiJAzK7RUjgcz2UkDssk4lpEcNA__"
+                            alt="">
+                    </div>
+                    <div class="flex gap-3 justify-between items-center">
+                        <p class="flex gap-2 items-center"><span><img class="rounded-full"
+                                    src="https://s3-alpha-sig.figma.com/img/c182/c624/b4da818aafc0a2c501e0441d11f9ff72?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Bu5blPNz058DnTcsCZpmkpmMlzgt7baynOMrvbs7ClxEwRHID0etsq5opVpg7jDVINiAGHlLDaMo-LqH5XhPN56BycoFBy-OCN54eDfb37VtvAYQF5I6Q~95Pex0LfZW5WJQCR1cYh6Xrua7bOBK3tNEVGzdOPrR3VJ~RGthDw~NQZmMmrZHf5nmkih8gdTso9IyUAVGFF2BxTB~jg-rlRpBEyMY2aHZsBdFjsnlevF6UVm~My22Js-nOZJRaJGvOuQwM2AGB--jteqF3NSO9B2GPnQL1sqrhIIDUX8SXfRWjWXdkYi6zLeQrr9bHnx9lPa6yvsDsFj8upQIL2l-Ig__"
+                                    alt=""></span>
+                                    Alex Go & Co <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
+                        <p>
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            210
+                            <span><i class="fa-solid fa-eye"></i></span>
+                            18.5k
+                        </p>
+                    </div>
+                </div>
+                <div class="card flex flex-col gap-3">
+                    <div>
+                        <img class="w-full"
+                            src="https://s3-alpha-sig.figma.com/img/0859/ec52/27b4e2274ba3824d948866c2c705a09a?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=STp~zYhyhzrj3AN1nYlkfnKpcPS2T99suwg2Gw9FFyxkwbfMFJFv~L7XWz~uGWOCCqJCxpIoFXVCM4upJSsPjXjz4Vo5EGj1eZI6Ji3bXlOQ5x4Agp4AuDuSTpcgGyRMWsrYEOfr4iWNTsjflxoveLatKx4TZmzdM7TY2YYBrSbiS2Ah4Mee2kbiXtgRIU7c8M3K4uv977iMRO59DHoDwh7GX5F2P~OS4OeJWLWUkceYnDTNxmKjL7n7Kd3g3r8ag7s8ozUZY8H-yPTFcMmv5E6Oy~ozqdWFRhNUB7m0NymumvF6mGAt2kWd6Uqpi~rMZOh~DmEq2sbXf-g-qbh6Ww__"
+                            alt="">
+                    </div>
+                    <div class="flex gap-3 justify-between items-center">
+                        <p class="flex gap-2 items-center"><span><img class="rounded-full"
+                                    src="https://s3-alpha-sig.figma.com/img/5b6c/8711/1072e200f0e3f5eb625d7a41fb8522e3?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YB-2RqnJppvmFhNVPjKE6MnledehMcCU2YF7yJV6FY4cqUrZnV33a0~PYzt14guULAS2Wv564YlLSNFyG1YsoPDaCJtILSHOJJABt4kqvvuH9r4saGSWywmQZf-9a1bqOw77iE-pUycVmD8Uony2u8T-WU71eSQZ5kGadIYdwRhUjbTlyJrpfeQsEfjleONcbwG3J8-axb~jXY0QNMHmCC85VHnRdQEVpHEVIAPQ9NoMdri6Kr2JY5TtHjhT~ioVASRFDTfhuVf1ltW5B4TmZ5ug6C6ESxmiBw8866dh4301dbT-XuZpL1Zxs1FCfT2Q49~PdpqncveM35MvcFMFmQ__"
+                                    alt=""></span>
+                                    Vladimir Rakshâ 🇺🇦 <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
+                        <p>
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            210
+                            <span><i class="fa-solid fa-eye"></i></span>
+                            18.5k
+                        </p>
+                    </div>
+                </div>
+                <div class="card flex flex-col gap-3">
+                    <div>
+                        <img class="w-full"
+                            src="https://s3-alpha-sig.figma.com/img/5104/f54c/a58ba91337211ce275c3f04fb09130fe?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qAlkMcbfY5T5tQVRlzjQSoq8xn2783EOUNLQUPVrOigIXDe9An69xRsHtHU6T~cbYHMLpS95TUv0bIL9ym55822qnrpVmAaf2j1Nf-EbXXRPxknQeWn~GIMHluyEMc~z1F0QmWNwf5k9IxEdyHk3fxO3aciZTeOSQlkJOKMJCQwabbU9TFK2-05bNAjYHvWizo4G1Sy1J9ZVt~lAzHIq2xextxZTOD4biD0az8t0kW-nINVJEudV4BgyUpFP3-n9idrDBZhT0dz7cXvwxtV7qJfYmPlEHl5eM7y7HJvSD3xq2y~8NlMnkTF0C8JWcP1rl90ZbRdWfGrMZpApQOq4DA__"
+                            alt="">
+                    </div>
+                    <div class="flex gap-3 justify-between items-center">
+                        <p class="flex gap-2 items-center"><span><img class="rounded-full"
+                                    src="https://s3-alpha-sig.figma.com/img/546a/118a/70b756ae9e24d2f780df11a7c80398ca?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=K~MpALjisSXKUE~af3O1yN0OU392Ac003R0jqpbJF8viNDeM5-~Lw76uQyTzy5YtPQ7~C-DrLZYl3UdFi5XzLxtMKqbsIKCA0DTt1GZDXIpZbcf91y573~DJijmq1RuFCZs2-ZWNEdo359bUf7zkdZzrciudMaucJR1RlEJ-nSj73U-q8crH3z0ggsZfWd3gtdCk~kuxUNjBpat6C-eafqUtoLkZfth20nTu8XPytf8klSNdQqUEHzkc-5JY6al-GdSyY9kovoeU0~g00Cd~d52Q7YhoEJ3JQZvz6zNRtF7nHhazuoLtL59tSyPUekt2SBQ1XGOivhPZNW5pc0-RvQ__"
+                                    alt=""></span>
+                                    Ofspace UX/UI <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
+                        <p>
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            210
+                            <span><i class="fa-solid fa-eye"></i></span>
+                            18.5k
+                        </p>
+                    </div>
+                </div>
+                <div class="card flex flex-col gap-3">
+                    <div>
+                        <img class="w-full"
+                            src="https://s3-alpha-sig.figma.com/img/4964/3678/4ed295f5f3327ea56d573adcecf3f626?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UeuI0CanHkqDdUEIByQBQG3kI-s4E986JQIK~jflkwYJdUYrfUd-0IM~cQmCyBNw0~PgDcaHkGucLmwe~D1wKqsvPR0c5v4--cKBEZnirifrxdrzpaactmCAYYWBWIgEJTj3X9hZT7fxj~omKOD0~eahryLgIMwxP4JIYqt6UnyPxdt1V3vkUXy1aWS4snTkInsH8mejRf1wsd5NOG2xMsxRRPpRHCG-B4ZRbkb2njFy3wn9VTTUIPTs7BFXEHkjgf7jLD-NThCPcXD5uuzKk~bt1EBAK6NM1vl1iJm9t1BkwHySUiNRdfzBbY2svVJyOKXJSXFWZWOQFwlwY5Stng__"
+                            alt="">
+                    </div>
+                    <div class="flex gap-3 justify-between items-center">
+                        <p class="flex gap-2 items-center"><span><img class="rounded-full"
+                                    src="https://s3-alpha-sig.figma.com/img/cac1/f19a/01af1624f16930e87704b0ed53462911?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NBgJEVTa7vECtO5-wtkR-VOd8u-M3FCFnujaPUkW-zesX9VsJI5PBy-kerK2MU~fhkUWD3lejpQUleaOJoll360VJQw-4fiB2UJ2B7quTFNKw3ui0mSRmYTBJxf-xj8B1BbY--~wzj3ucVxRFgkpBXoUx8~jcKCqDQ0wXi0y6Lv71fDSQGHuvDbKin56OJx9L5hg14RDkRJJrAcQ9derqd-KSbQ8bM5vrLekYQ2rJWh-Z4AZK8PtBuBgDeaF3Ld~SpxhaDpd8LQ7809L88bLXGIt6b~wKelaSIGb29hj34M4Ri6IlkD9jVoGlYck7s~F-5IA4IDNbxFlY1TzE~csDA__"
+                                    alt=""></span>
+                                    Steve Wolf <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
+                        <p>
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            210
+                            <span><i class="fa-solid fa-eye"></i></span>
+                            18.5k
+                        </p>
+                    </div>
+                </div>
+                <div class="card flex flex-col gap-3">
+                    <div>
+                        <img class="w-full"
+                            src="https://s3-alpha-sig.figma.com/img/cdb9/c2a5/04c808bed3ee115a3e8fd6e12915ae85?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HrzQSOfl-B4rNUkZufzzIBmowBfkGpg7uAQtOaOUBOJUrdYYzJ38eK6Na6onPgyBD4RcOkmoK~YhiwmGBoBjhGBuL1NyuqYei0n4gdyX~zvIcdSzbz-3AT8PXfIBfErTHUUtUsFklvgO~HFfZI4SIiGUNG2HHSEY55tby68rPDdHCv0bROTKITrG2UmZvggUbd5jw0vucy46oVuTBWd~HJuoAjSF38gq8tzgeGs72vPT~jpEi6TQfH84UvU6dCuvWRQqZ7PrIx6s-AeonEoIFb281UvzWaVyDR5mkkr0PuCjNphYvFtWsu~3qy1QxEiv9rW~yUkMd8p8rKLjDZ40-A__"
+                            alt="">
+                    </div>
+                    <div class="flex gap-3 justify-between items-center">
+                        <p class="flex gap-2 items-center"><span><img class="rounded-full"
+                                    src="https://s3-alpha-sig.figma.com/img/98f4/120b/0678f69ad437d15144f1e95473b90b5e?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=J71pL0zhfTHhd0peFEIU3s~OXG3n4kX5zF-KPrYVEMEkSlNR0CNSx2H9sE2u6velWNJuIzoNCGy8Wvs2R2NYKYOvaG3nfXy5BAzntOadl4E2S7BMgzZUKkcy94YWs2lWHM3h250AaHLQArjpJ-aWb1pudkrg~YNg~RYRsMx1ti99p~tk0XW571w9gdQkpeDmrlieaMybeZXkZ2w~Dmc3IYUzbl-n72wL1NRtj0MqjUblVVNQBlo9Rr7Lei9RtdWNh5NAu5EIeDYyDc39i9Y3nm6Zxx4Ei~4d8V4YFWhcQnQvgPo6aGnHOyXi0BfAqdH1vOtBoiR1lxVD3q2IW0lmhA__"
+                                    alt=""></span>
+                                    Type08 (Alen Pavlovic) <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
                         <p>
                             <span><i class="fa-solid fa-heart"></i></span>
                             210
@@ -128,14 +303,14 @@
                 <div class="card flex flex-col gap-3">
                     <div>
                         <img class="w-full"
-                            src="https://s3-alpha-sig.figma.com/img/2398/a7c8/c7c56be6cd385408d6d71fcfe7e6f1be?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R53nuYiZbu3rbk~NxrOuMcXBhjC6SVGW1DB-uCFVYLX3RuilQBEYerDf4dF6C8~hJjHJrXldHn31l6nT6FURBPS6-4AWpa27G8e1yP9V05B6nW5lXPWVQNHMu0EZYiTbv5qRxb1yaqETk~jdYBS~ecKNusKEBb~Y9jFX7omJ3c1aRM1~rZ4GZyuVMWVHxFAINqOpN5awzA6KVW7JrCK66uvJpmCPJoLHRIE9t36CetgMX7Sw6qYvFzFPLzfqEBmSZpORFy8hTUUsiuVK-8x9lJKujuuwoQiHwtBf05Bq1n64FYuecurhmnHowEKPW54Sc85AVwHVSJlQA3WivNiWjQ__"
+                            src="https://s3-alpha-sig.figma.com/img/f3b6/56e5/3f959f45137d0380c8e017823eda7931?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qzXh9lIcUOv86EnmdiTgLJ4I41b1D9tkZv9YBVHa8U-zA1G9yRZIO5VcmNbTFJktC21bIQSrbBfkqhtOB0~yhardXczRa2kMApu9BYf5B2nV8lCrfPkaDBM6H17kj1-hDJAMZaq4pOHGShFBe6aYXdKo4yZwXxievBvkuFdvQYSYopuGRXBYVxKSzcLXWFKCBCFvDpbbAPlHVlFO5UlO~mfUHeLmrwqvlaV6fSVOnLw9w4vjhNzA~3MO~0xY3SnkO4Q~ByW6ppAutzIJeL5yNGDOkLeoBoLIBDWYLpkWbXqUWmmIOxuT-oceYSMV4vx~iCOBAUcEkVWu2eW1S63Wlw__"
                             alt="">
                     </div>
                     <div class="flex gap-3 justify-between items-center">
                         <p class="flex gap-2 items-center"><span><img class="rounded-full"
-                                    src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
+                                    src="https://s3-alpha-sig.figma.com/img/dfd8/8e0a/2f7db5cf4b9477107d8422e298e8cfd2?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OWkkOr3Y7RAmstdEi2ZMoE9nNp5Q~lDNrxrV8aBHZ9-0MmJu4Vs9AQFU~4sIPUmYMhQ5P4cR6IkpL2-y2RiNDDNWY1ru0T2KiJZhScBo-PAO2vE4Xm5z6jJc9Px1QeP2L~Pv0Rt07aV3vz2QM07yIHlV7ZIUi-jgt4swTw2rVFdHh3z1RxRoTXlp9uTd9Ngb5YoojIFy9vbQrja-Egza79pKz1eG1Xw~kHAqQY6o34sL7kVs1EY34pj-vEAm08WNQ9rRdBKZlZv87FvEuChsGRupvFJxzSLsu5C~fxrGMVMKNttrq6GqtoYY4l-Xo~drYUN98F90sgcIsW8YqjmwIw__"
                                     alt=""></span>
-                            Vedant Hegde <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
+                                    Ben Stafford <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
                         <p>
                             <span><i class="fa-solid fa-heart"></i></span>
                             210
@@ -147,14 +322,14 @@
                 <div class="card flex flex-col gap-3">
                     <div>
                         <img class="w-full"
-                            src="https://s3-alpha-sig.figma.com/img/2398/a7c8/c7c56be6cd385408d6d71fcfe7e6f1be?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R53nuYiZbu3rbk~NxrOuMcXBhjC6SVGW1DB-uCFVYLX3RuilQBEYerDf4dF6C8~hJjHJrXldHn31l6nT6FURBPS6-4AWpa27G8e1yP9V05B6nW5lXPWVQNHMu0EZYiTbv5qRxb1yaqETk~jdYBS~ecKNusKEBb~Y9jFX7omJ3c1aRM1~rZ4GZyuVMWVHxFAINqOpN5awzA6KVW7JrCK66uvJpmCPJoLHRIE9t36CetgMX7Sw6qYvFzFPLzfqEBmSZpORFy8hTUUsiuVK-8x9lJKujuuwoQiHwtBf05Bq1n64FYuecurhmnHowEKPW54Sc85AVwHVSJlQA3WivNiWjQ__"
+                            src="https://s3-alpha-sig.figma.com/img/c208/67dd/730de735276fef12bfe4464c7dae0820?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bNjZqtx5ejz6oPGl4~2DE6XR47MjCj-PJS~PmzwE0x4FvIy3W52oYyDKZLQIKskbPVqZctksufJ8pHO3-bUXoewaFHKryWuZi5Z-Hq4i-s6KZ3KqpBl9w~~qAk3Dgj6xl08v3EsTrotyUnb4t0VD-3D40bjCNNfGqrdsA7XRigXBKQNZ6zmOKy4Uir8NnIUKfD-U3Gc~gDJLwUDipkuGrg37sqjyD8BpVn-NdUiHwWzApFO1Z-lhfZJlnd2R3eyMVS4m-uw~sPbjkIPjrlqPyJ53IhONDpfsyC48n2nuEcwWyJ4hqnYA0Z5~L0qwQeNL1bAGYS1eNf-fFY78UR33SA__"
                             alt="">
                     </div>
                     <div class="flex gap-3 justify-between items-center">
                         <p class="flex gap-2 items-center"><span><img class="rounded-full"
-                                    src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
+                                    src="https://s3-alpha-sig.figma.com/img/c415/f576/143d00fd45812354909f5863aa29c7cc?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ajob666wvmU8Beh3D6lChZedL-StIAYaBz6OeXQU072LU8msjekWbVLBXRoQ4w1QeEfFsajiEChEWPexGcLNFBEs1RvOfgK50Jx3L69-f-h5B8rRBRYVkGkFZKwphbf2dYVEaIEj8AjDb0LMNma8VrKRyO77mBDFmipKjmV1dWwYaBic88FbtOQO3GBEzbjGU9~39KCgozraE~hslK1z9SUoZpjXFJLFZ5jwsQRTEePrKERZZXfB1v618u6O4XTZd1-Kyu4SL3ca6c~sMBlz~OjxN8gH0Qh9fD6K88YkG6tV4FZWSyjY-Uel-RUy9jQelnRkqFXcbkbxO5iDjFbaLQ__"
                                     alt=""></span>
-                            Vedant Hegde <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
+                                    emote_agency     <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
                         <p>
                             <span><i class="fa-solid fa-heart"></i></span>
                             210
@@ -166,14 +341,14 @@
                 <div class="card flex flex-col gap-3">
                     <div>
                         <img class="w-full"
-                            src="https://s3-alpha-sig.figma.com/img/2398/a7c8/c7c56be6cd385408d6d71fcfe7e6f1be?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R53nuYiZbu3rbk~NxrOuMcXBhjC6SVGW1DB-uCFVYLX3RuilQBEYerDf4dF6C8~hJjHJrXldHn31l6nT6FURBPS6-4AWpa27G8e1yP9V05B6nW5lXPWVQNHMu0EZYiTbv5qRxb1yaqETk~jdYBS~ecKNusKEBb~Y9jFX7omJ3c1aRM1~rZ4GZyuVMWVHxFAINqOpN5awzA6KVW7JrCK66uvJpmCPJoLHRIE9t36CetgMX7Sw6qYvFzFPLzfqEBmSZpORFy8hTUUsiuVK-8x9lJKujuuwoQiHwtBf05Bq1n64FYuecurhmnHowEKPW54Sc85AVwHVSJlQA3WivNiWjQ__"
+                            src="https://s3-alpha-sig.figma.com/img/7972/5eaf/0b46b6840c3f4786b01719e741ca9f0c?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=i2Frf1fwjCTZpekKMeoKhgmb9PPqklpSpiRtTjJpJWNty7RYZen-tTVyjyI09VOOOafgBil63W5fxveHQ5HnTDiRDHy8Ej6f~a1GjEdUa5Y7cg3VIauUACFx6kut2rs43iQWQcStt26bMrvLU44NJnaSt4xYOzWLW4WmwZAuLQ46P1KCGJBQalPT5FnPJAdUR6yUKtNmY~11lOPgOTiOE-zA6cMlnH5kfemKCnLyiPNgRiKNQNrnX4DXX94Uu7uqEu0ZuDJOGhr69bqkVCeA1JEMFyQXckUFMxdfqslxFuti6jQ1srZt0O9b1aqN3jsMTmyPO~huSM5pb89I5QwM~Q__"
                             alt="">
                     </div>
                     <div class="flex gap-3 justify-between items-center">
                         <p class="flex gap-2 items-center"><span><img class="rounded-full"
-                                    src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
+                                    src="https://s3-alpha-sig.figma.com/img/af32/ed51/93100ea5c7a11b93ec2a50e73bf2b9a9?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FvtJ89KBAobgQOwEoc5WCK7gXkcHzbirZn6r~oyHPPVGhdSfnP-ds3x0PuKZwnNkBxGxHFLZLNXd9gwWso-cB5~6rjsymlDvo~gFfBS5aV5-ldeUfrmHgdADAP6dUY8uwrqHLBmkwMtHhAZpSqJaw4qxKldfiy568LzyD5DiT7vOL5jCzQXlC4-LO5SiK9UD4NkkUq5zUzDsm8l~ff2NMBHgHNqeh1EwH4MIiWRfRsxYm8BGVYOKj9P0G9jV3ScLFw2VE0SLlOvbW18I3S0duSkI~wvFsdLge-7bV0inUoB~YnJ3614j6LNFGkUtBM7wmY~zyxkQgvACd2Rf7MVTKw__"
                                     alt=""></span>
-                            Vedant Hegde <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
+                                    Brethren Design Co <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
                         <p>
                             <span><i class="fa-solid fa-heart"></i></span>
                             210
@@ -185,14 +360,14 @@
                 <div class="card flex flex-col gap-3">
                     <div>
                         <img class="w-full"
-                            src="https://s3-alpha-sig.figma.com/img/2398/a7c8/c7c56be6cd385408d6d71fcfe7e6f1be?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R53nuYiZbu3rbk~NxrOuMcXBhjC6SVGW1DB-uCFVYLX3RuilQBEYerDf4dF6C8~hJjHJrXldHn31l6nT6FURBPS6-4AWpa27G8e1yP9V05B6nW5lXPWVQNHMu0EZYiTbv5qRxb1yaqETk~jdYBS~ecKNusKEBb~Y9jFX7omJ3c1aRM1~rZ4GZyuVMWVHxFAINqOpN5awzA6KVW7JrCK66uvJpmCPJoLHRIE9t36CetgMX7Sw6qYvFzFPLzfqEBmSZpORFy8hTUUsiuVK-8x9lJKujuuwoQiHwtBf05Bq1n64FYuecurhmnHowEKPW54Sc85AVwHVSJlQA3WivNiWjQ__"
+                            src="https://s3-alpha-sig.figma.com/img/04a1/1710/b6fc1dc9cb20abd1690a33227a3b4209?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bZpzZBqqcg7pOO6X8kFp-bbW0Amnimc1R6Qn3FpAzbqjFkvBRa-wf2cfQXXdXiLL-Ae44Spm-T2CB3u9DsvtnTKENV~AXUY8iC0ff8tHadbjo1VkWsT~mJK7q4qTWc8rC5sYv~kTrbglioNkWkeKiSfOAfeYxFzSIwcvW1ssGYHjn6pFTvC4gCw9AGh33FoWENr1euwZXBd3I3B~Vd2wnC~y5QSlm9owC7x2Ih3ij~3qYz52BrYth68zAwSpUPUyYtstImjJLhRmY0U1WtqmcxSlAShw0OsuPEMY19Y0iw2j~3mQ26OG9Ks6hAX53slJ8hPlALsYdsI9Scwoclrr0w__"
                             alt="">
                     </div>
                     <div class="flex gap-3 justify-between items-center">
                         <p class="flex gap-2 items-center"><span><img class="rounded-full"
-                                    src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
+                                    src="https://s3-alpha-sig.figma.com/img/a1ca/ddaa/740bb466945ee88f58c89b72a5e91aad?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nGrGdHu3LuUsezPucBTKbBlLrReotxFUdPevZ2ljedjHr066QMaBpzEWo4HngshkndZheNfT4~KR~GjI-iGxRlH290oKwCrDiNJv~Oc~0dn6YDhX65wSey70ezYHsHAjWZr5o9s9QQDIUz2DUWy2FlcJ6ypciUMYk4wxNEXbyOvrAUS44DSfAcNDp~w4291~3C5PUR52FOSP8U8PLagC1bGSV8n2KMbauSNQ0F5NRM0LOpU8uEP06CFaVLp17X~dN1EMTI5-4Y~PM0kojRyieZZZ1nI6fprWcZZg16maXun4e1mOkDtpj6qBipx5DBANmHOPilXEr3XigsRGqqfjeA__"
                                     alt=""></span>
-                            Vedant Hegde <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
+                                    Slick <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
                         <p>
                             <span><i class="fa-solid fa-heart"></i></span>
                             210
@@ -204,14 +379,14 @@
                 <div class="card flex flex-col gap-3">
                     <div>
                         <img class="w-full"
-                            src="https://s3-alpha-sig.figma.com/img/2398/a7c8/c7c56be6cd385408d6d71fcfe7e6f1be?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R53nuYiZbu3rbk~NxrOuMcXBhjC6SVGW1DB-uCFVYLX3RuilQBEYerDf4dF6C8~hJjHJrXldHn31l6nT6FURBPS6-4AWpa27G8e1yP9V05B6nW5lXPWVQNHMu0EZYiTbv5qRxb1yaqETk~jdYBS~ecKNusKEBb~Y9jFX7omJ3c1aRM1~rZ4GZyuVMWVHxFAINqOpN5awzA6KVW7JrCK66uvJpmCPJoLHRIE9t36CetgMX7Sw6qYvFzFPLzfqEBmSZpORFy8hTUUsiuVK-8x9lJKujuuwoQiHwtBf05Bq1n64FYuecurhmnHowEKPW54Sc85AVwHVSJlQA3WivNiWjQ__"
+                            src="https://s3-alpha-sig.figma.com/img/d0d2/251e/29ad563f9dc0dd9039823cb1b2723d34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jUj9U2WB747cEUUioVlmTL9MGJIceqyIPX06TXweFQA0lY3Vh~0OkIHfE3DHo8X5JbCnnesMWHBPVwfo8V0gYZPw53SF0RCCsoqJlKQK9hJr6rJg1LWJrL9DFapOtzdTRxLoVM7AiKBvHCO~aIqtzaB9xxo976NiabggHRqlonmNsXhzZrys-z20Ubwfl7TAULGE9Va-nEWRhqCPVU2uwrNPzuWMmtFbkHrnV36DTXK4E~n4J5rGlV6fm1hvcUAhgmQvaSh~3Yjd--GisDg-ioro92XsrRaL-1TWJgXxZJU8A4yM94LNE0AFB2izhyn8jIT3jXD4lYV7RaxfSoaP-g__"
                             alt="">
                     </div>
                     <div class="flex gap-3 justify-between items-center">
                         <p class="flex gap-2 items-center"><span><img class="rounded-full"
-                                    src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
+                                    src="https://s3-alpha-sig.figma.com/img/faed/04fd/941fcd850423863cfa06970b8436fcc6?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=f3sNJe4fP6380LaePw63-tmCcro7QfLcJZWGCXjll52GcXe89BU122UKg5KhBVQwgwAnZJ~zhJ1Ia1s3rIsN1j4lRDQy96bRdyPLrduXnuiblPJ74EkCuKFdUC4qlBlttjFS917htxakctJPnZAFYQn45NUWHSZ3igan1DDld2JEeM5rP2sz93wpiF1qnbyVntQ59uZb81RjHec1uaqAoajhRW9MsJDi4w18R9eOZC1H7SfrbcoAiWTOzt5hC31J3UhvyQIDN3qDwRtbUCMlO3AsTRWSZXSgShMHIPDGXYl0B0qi4LpZ4wCwGBFR5UjeOFRklZ2T7MsneZxcySxgdQ__"
                                     alt=""></span>
-                            Vedant Hegde <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
+                                    Open Purpose® <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
                         <p>
                             <span><i class="fa-solid fa-heart"></i></span>
                             210
@@ -223,14 +398,14 @@
                 <div class="card flex flex-col gap-3">
                     <div>
                         <img class="w-full"
-                            src="https://s3-alpha-sig.figma.com/img/2398/a7c8/c7c56be6cd385408d6d71fcfe7e6f1be?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R53nuYiZbu3rbk~NxrOuMcXBhjC6SVGW1DB-uCFVYLX3RuilQBEYerDf4dF6C8~hJjHJrXldHn31l6nT6FURBPS6-4AWpa27G8e1yP9V05B6nW5lXPWVQNHMu0EZYiTbv5qRxb1yaqETk~jdYBS~ecKNusKEBb~Y9jFX7omJ3c1aRM1~rZ4GZyuVMWVHxFAINqOpN5awzA6KVW7JrCK66uvJpmCPJoLHRIE9t36CetgMX7Sw6qYvFzFPLzfqEBmSZpORFy8hTUUsiuVK-8x9lJKujuuwoQiHwtBf05Bq1n64FYuecurhmnHowEKPW54Sc85AVwHVSJlQA3WivNiWjQ__"
+                            src="https://s3-alpha-sig.figma.com/img/737e/664f/24b2039e45cf5ed9e2a641dcf61da1fe?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OUq5X-1rNRBo4naoLurrUNRj3OZ4zBt-DskpoMFnkjAtMRxREFvqzDXblpf1NyDW2U9wCyGkuhwGL6SKCPnVCNK0K9h8jE0ADowvuVoL0GsrVO3x2ell26N29TXwdMS2h0UyZcTUGtjDVy60BUMMGs0vVR7SQeAWeFgqGYJdRJe3xr1yKfuK9ssuar4Vjv1~ZZvUV3JT~inIhv3q-8erfBJNrBi~JtVVKE-62NTVKV4wdasWeVDgfmTcLKI7dX4LKLFz5Sad1QRWF3TR1QRVwgtkHpXFHVR0D1rAPTbZED9elYTn3x132c8NJL3ABlRr71sG6ougYeUrq18pBfCPOw__"
                             alt="">
                     </div>
                     <div class="flex gap-3 justify-between items-center">
                         <p class="flex gap-2 items-center"><span><img class="rounded-full"
-                                    src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
+                                    src="https://s3-alpha-sig.figma.com/img/d047/c290/056e2b9e9ffd3cd9ebc44f01bdf4a218?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ds6ZXjThKnTXG3QmLho-X8XaIG8fOMhR2r-kipGx4ZLGB5sbGJkMevTQ5VmNFKh9OVsO-4olGKmKeftNHrfHr2L0bTzEdUeb92cG4ZWudbGisOpse2TqyfkyFkFivISawmUocX3Uh7vtC0ED94GxFfLHTVg~lfqiL07-YjM0A1GGvVsOcO4x-DP5N472OFoqVt8S7vn4~YwHrRZMsjKj7ToTjwvsSnvWJQfhWnswQsSt23675V-zAg7UOUvNUJLTuIdaAYOoCM2rpG38vygoj4-6EzVGrxQUhW2i2tZInwRKSHlITatdBnYh1jlJudb3STiMx-bBNFX6GetLjpfdZw__"
                                     alt=""></span>
-                            Vedant Hegde <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
+                                    MUTI <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
                         <p>
                             <span><i class="fa-solid fa-heart"></i></span>
                             210
@@ -242,14 +417,14 @@
                 <div class="card flex flex-col gap-3">
                     <div>
                         <img class="w-full"
-                            src="https://s3-alpha-sig.figma.com/img/2398/a7c8/c7c56be6cd385408d6d71fcfe7e6f1be?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R53nuYiZbu3rbk~NxrOuMcXBhjC6SVGW1DB-uCFVYLX3RuilQBEYerDf4dF6C8~hJjHJrXldHn31l6nT6FURBPS6-4AWpa27G8e1yP9V05B6nW5lXPWVQNHMu0EZYiTbv5qRxb1yaqETk~jdYBS~ecKNusKEBb~Y9jFX7omJ3c1aRM1~rZ4GZyuVMWVHxFAINqOpN5awzA6KVW7JrCK66uvJpmCPJoLHRIE9t36CetgMX7Sw6qYvFzFPLzfqEBmSZpORFy8hTUUsiuVK-8x9lJKujuuwoQiHwtBf05Bq1n64FYuecurhmnHowEKPW54Sc85AVwHVSJlQA3WivNiWjQ__"
+                            src="https://s3-alpha-sig.figma.com/img/8565/3d54/c31e755c8af8bd8fb9cca049ffb2f490?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NPRJJcpN5s8gdfsf6feoWtQILPiwpG-AAA9er6IuOB-EgpZ44MvuZByt7NtATCCB-xJ8V-Swr2CBlVlh2BgRymzo6oy61brttSPXQGLsazdUZULEwPFL1CzV2qSy9fSw9s8oQ9qf6fxo7oAIgqRyoricfjOguzgatsbTOlKp-kIUI-Hnu2nQEecNL3u3Nep3sHX01HyfFzsIv8B~JYEXZQrHEg63SglimHUq-tL4T11gKXAcDoFkbxUWHkpjPBgruVDYeEzS~y-RCeGuss1jCOyFSnQm9FgkEwG4ibQ5kMFX8V1YVsv48QL9kxEFkvHdGiRDzH7eYOjw-6B~gWs2sw__"
                             alt="">
                     </div>
                     <div class="flex gap-3 justify-between items-center">
                         <p class="flex gap-2 items-center"><span><img class="rounded-full"
-                                    src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
+                                    src="https://s3-alpha-sig.figma.com/img/3c03/ef97/8af160d186e9a8f3fd0d8cb2150e4be1?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=f0qZOzM60jWfQ3deYcSTRgd94YpjXOwtISnT8GZJwBv08z2ZBmpJUy3-oiR2oIOF1hDcvtM-xmSLqCZW3k~Uz3j3jztK9amSGV-r7vFiQJfGBjefcqzBZB~jXpTqGgFG3p0HCOG418VEZztM8n0SAXwsTaKHCDwUFI2AiwHQzmuqGFlPl2mBVprzmk6nATlMDxqwfYZLnntGl4r13rr1G6H6fKf7cUBxbmC7NGe76l8j4kZmWcp9XoOzaGfbOlOHHRfdwspskBUiun0HkzAakDlBosUEzR~lukH2ziv0Cd9B-t19p7V1E1Lg40WnJJuk4YyiX0i2e07COcKf0eJPKA__"
                                     alt=""></span>
-                            Vedant Hegde <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
+                                    Commence Studio<span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
                         <p>
                             <span><i class="fa-solid fa-heart"></i></span>
                             210
@@ -261,14 +436,14 @@
                 <div class="card flex flex-col gap-3">
                     <div>
                         <img class="w-full"
-                            src="https://s3-alpha-sig.figma.com/img/2398/a7c8/c7c56be6cd385408d6d71fcfe7e6f1be?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R53nuYiZbu3rbk~NxrOuMcXBhjC6SVGW1DB-uCFVYLX3RuilQBEYerDf4dF6C8~hJjHJrXldHn31l6nT6FURBPS6-4AWpa27G8e1yP9V05B6nW5lXPWVQNHMu0EZYiTbv5qRxb1yaqETk~jdYBS~ecKNusKEBb~Y9jFX7omJ3c1aRM1~rZ4GZyuVMWVHxFAINqOpN5awzA6KVW7JrCK66uvJpmCPJoLHRIE9t36CetgMX7Sw6qYvFzFPLzfqEBmSZpORFy8hTUUsiuVK-8x9lJKujuuwoQiHwtBf05Bq1n64FYuecurhmnHowEKPW54Sc85AVwHVSJlQA3WivNiWjQ__"
+                            src="https://s3-alpha-sig.figma.com/img/00d4/e6ea/39d6391c05d040156e0a6575cc947e85?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YDlzNAK3vNzmGx4r70w6j-AGHnUjh~zrPJU42aBAUCzra2pTNw-Gs1-TW7yGYMvaMoD~-i7TCahKnVo7S1wwHtv2YKQrXd6aW2rCtoft6VT5BsIlR1VcKM6tCUfM1lL42NeB1upRfC7gjO-xEN2quXRWkVuqbmuF8tHX4KdU5HOykqI3z5L~Bg~Jm4qdM800UIYlxKdbDj4d7baZ9UnerSvM3Gohg~lCDVoKvQ4BKIMuOkUa8QplJDwxK5qSY4uZ5XYWaz76TJLbCb9OKZODqLEOjNhzTJ6yMbr2j4bGKq2s7ywEPGaoHoKXhvg9lsqDtdLnVkbIcJu4sjjBTNfZrA__"
                             alt="">
                     </div>
                     <div class="flex gap-3 justify-between items-center">
                         <p class="flex gap-2 items-center"><span><img class="rounded-full"
-                                    src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
+                                    src="https://s3-alpha-sig.figma.com/img/6fd7/7fc2/ec5de7a6fec7262d823a1c00e745aa17?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fiVI5lvUGMHfvxJ95FDYL0cJdUjm5JnQGWlPYs15wTKSXJg-~jhitiCMAQVNOodYQENMKiQlOxo5XoAzClZvT9jZSt-XAiNf9cdWYSVzoF4K7qz~eWhARaJha-2o4hFWdUuok33ovNfAu293nkN3kePvC4KA1pvs4UMkBuPD0~WGw5zO9m2RFUHnz6hDWHZshyKAg3CDNRl~FjpP6QTAZMrTFW3N8bnMvxagAYGrnQTS7qoflKjGxu9YnCvYg6gHs5FG~b6Q-hlJxAvSq7Px7lKY3--tDbOE9ARVPHVB0-Cvo3ScgIh3V2L-TcSO3BPXIPY2uzqrgu5HI~-T3I98kg__"
                                     alt=""></span>
-                            Vedant Hegde <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
+                                    Ethan Fender <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
                         <p>
                             <span><i class="fa-solid fa-heart"></i></span>
                             210
@@ -280,14 +455,14 @@
                 <div class="card flex flex-col gap-3">
                     <div>
                         <img class="w-full"
-                            src="https://s3-alpha-sig.figma.com/img/2398/a7c8/c7c56be6cd385408d6d71fcfe7e6f1be?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R53nuYiZbu3rbk~NxrOuMcXBhjC6SVGW1DB-uCFVYLX3RuilQBEYerDf4dF6C8~hJjHJrXldHn31l6nT6FURBPS6-4AWpa27G8e1yP9V05B6nW5lXPWVQNHMu0EZYiTbv5qRxb1yaqETk~jdYBS~ecKNusKEBb~Y9jFX7omJ3c1aRM1~rZ4GZyuVMWVHxFAINqOpN5awzA6KVW7JrCK66uvJpmCPJoLHRIE9t36CetgMX7Sw6qYvFzFPLzfqEBmSZpORFy8hTUUsiuVK-8x9lJKujuuwoQiHwtBf05Bq1n64FYuecurhmnHowEKPW54Sc85AVwHVSJlQA3WivNiWjQ__"
+                            src="https://s3-alpha-sig.figma.com/img/2a1f/8b8c/82ac2e64f0aee9c6750bfc4ec14bac95?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PwfYf4ESlj0ET325HG27MhKhk1Ws6JjAVGZVpora1nEjL~ydQ7lld0fp6UId5Sp-6507qkaXLNeM-QdKc70o7JgZ5E1PAGy7KvnSrcGAax0y60Au9dT~U2~XR3tJ~cgsARrvKWZ5QgkLq8Pskvqk3EOPhG0bxmjtimLn9K9EhBTss4f3cjaUEUE4KjL4swxKn-ziT3fOfF-CUVUTbHn~TPuJnv78rv4DL7-92VI47OBWD73qSLJXuTt5fPi2VU-cJS98ffFheWOv9Es1jDRiOED8S36kABIL6y3OzxdwaWPCX59JvG28a4hL2AWJVp8MbtNQKyKt5vY4hM7ehzpAJw__"
                             alt="">
                     </div>
                     <div class="flex gap-3 justify-between items-center">
                         <p class="flex gap-2 items-center"><span><img class="rounded-full"
-                                    src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
+                                    src="https://s3-alpha-sig.figma.com/img/d143/8b68/f5a72589127ab8097356acef3a061d3e?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pkNmtqxQ8ytmHNr0BIul51El5hu0~D37xxCsY2FxVRAmPzFCYTXDhaux9Ts4md4--215ynCx1mTskrD25tGEeBS0spSs8sXJWnmoNsHbvjOvcQIivCDqoB~Ooi0oHWQmRyWYlVFq2AYosnuZZ0XypEgrDI~lAzScyRdQJTLfgEDeC6rWfgjtBn6S-ppmE17ntptMHgDBZgop2aFQHYu-js~~3X9LYDg5mpjOIGzyl1WexOO8Wu39ygoyovbcs1tB2Z7NekCi90~VVCQvF9pDBpiC5rpR~9o0r~NBwpxbkKmcI1ysAvQcqmQx9eOpSw74UzZ~4OKuWKBIX6QMCmLPPQ__"
                                     alt=""></span>
-                            Vedant Hegde <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
+                                    blacklead studio <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
                         <p>
                             <span><i class="fa-solid fa-heart"></i></span>
                             210
@@ -299,14 +474,14 @@
                 <div class="card flex flex-col gap-3">
                     <div>
                         <img class="w-full"
-                            src="https://s3-alpha-sig.figma.com/img/2398/a7c8/c7c56be6cd385408d6d71fcfe7e6f1be?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R53nuYiZbu3rbk~NxrOuMcXBhjC6SVGW1DB-uCFVYLX3RuilQBEYerDf4dF6C8~hJjHJrXldHn31l6nT6FURBPS6-4AWpa27G8e1yP9V05B6nW5lXPWVQNHMu0EZYiTbv5qRxb1yaqETk~jdYBS~ecKNusKEBb~Y9jFX7omJ3c1aRM1~rZ4GZyuVMWVHxFAINqOpN5awzA6KVW7JrCK66uvJpmCPJoLHRIE9t36CetgMX7Sw6qYvFzFPLzfqEBmSZpORFy8hTUUsiuVK-8x9lJKujuuwoQiHwtBf05Bq1n64FYuecurhmnHowEKPW54Sc85AVwHVSJlQA3WivNiWjQ__"
+                            src="https://s3-alpha-sig.figma.com/img/7e2b/da09/5546b16e93a92326aa775b0b8720dbae?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gKAgqV-F0sllGtDnHSb6dcIEpEBVtaAb2RPveR0gzkG39DPCBPJYwOafzDN5I~x5KycikK9nHHkqXnO-KXTIVsyolAzewR1kwkrHFUvxKzww92CvQeCrcExzw~gyE12fy93vFww1bWHI~~L0o5lPqYZ~pYN~O-rgZRsYxWDRZK1UHFLSk6VVFHyd197Sa7WMVnNJMDnUU6QP5eseZTb0MrkfpizwewbGJtAETopYYIvOUYqOaqbMHsDQBykrp-rPp-2fOJ-YGjmkP6h~FTfzvZ1oVLSnSZ~HsIId5kSH~-xv5zuCTDhCv0SKBLvRUwJ~QFc0riz9HraeimwCIcdtvA__"
                             alt="">
                     </div>
                     <div class="flex gap-3 justify-between items-center">
                         <p class="flex gap-2 items-center"><span><img class="rounded-full"
-                                    src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
+                                    src="https://s3-alpha-sig.figma.com/img/644f/644d/25178f004109f8100551638a640f86ba?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cvu2-VFgDOCTbulyTShcAtx7Lk7CKOz62fwKSh25WYihRCN48qmlts9dvD3MPfUX5LN0U9I3b1FSQgRsNShEf7YcOLeGo061hJIcPjwiRzj~ZEjzwrzrA5ZENNku--M7OI74Q9RXs4kAyHR8kVWRUjM~hJzx9ES5yStwmsdLrSkhIkTzLW42C~VmhAn3AoVkqJFRwtR9en5-sEGMYaW5RKoUfyonYukIzIo2KlNvPkulVVsX2A0Ln0mTSiO5Ffg3c5HlSfWMaltRZLWa0VeevzQYqfaA9NdL16QeiiB51XLrdW6nkSHUuG5ZTmrQvW62ahY95qK0ARLokhhnvSuitA__"
                                     alt=""></span>
-                            Vedant Hegde <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
+                                    Anastasia Golovko <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
                         <p>
                             <span><i class="fa-solid fa-heart"></i></span>
                             210
@@ -318,14 +493,14 @@
                 <div class="card flex flex-col gap-3">
                     <div>
                         <img class="w-full"
-                            src="https://s3-alpha-sig.figma.com/img/2398/a7c8/c7c56be6cd385408d6d71fcfe7e6f1be?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R53nuYiZbu3rbk~NxrOuMcXBhjC6SVGW1DB-uCFVYLX3RuilQBEYerDf4dF6C8~hJjHJrXldHn31l6nT6FURBPS6-4AWpa27G8e1yP9V05B6nW5lXPWVQNHMu0EZYiTbv5qRxb1yaqETk~jdYBS~ecKNusKEBb~Y9jFX7omJ3c1aRM1~rZ4GZyuVMWVHxFAINqOpN5awzA6KVW7JrCK66uvJpmCPJoLHRIE9t36CetgMX7Sw6qYvFzFPLzfqEBmSZpORFy8hTUUsiuVK-8x9lJKujuuwoQiHwtBf05Bq1n64FYuecurhmnHowEKPW54Sc85AVwHVSJlQA3WivNiWjQ__"
+                            src="https://s3-alpha-sig.figma.com/img/5a9f/86e1/e60c037af4b015083f32850cebae0806?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=k0omB720eAQgZeva0igr-3GJ6hbYgBLVcvD6B06i-usKVIESLcG-ddbWyL~ZdxF2r5HCvJpqxKohFQGMKz9HxHED~iFT25o9IYkQn6OmU71dfn~Kat7bv8RkT8A8DeORARnSrHNoo8lkbzForPXRI11MB5aCsvHYZrvI0dZiEjoRuF7sE-CMwMbcqSjPAZz5EgNcDgK3nHB1raJ37xjOQYIeFnB1Fs8GIfcCwXiAjKVltU5FuxUln~fvOOnK-231aRZ5cWGkvm3xWuwP6DbmQCYMzCWeG-phGQ0vZirYVhLDuO760maSmvsjsCCr09EOGr46afYkqqqf~XmQArvPjQ__"
                             alt="">
                     </div>
                     <div class="flex gap-3 justify-between items-center">
                         <p class="flex gap-2 items-center"><span><img class="rounded-full"
-                                    src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
+                                    src="https://s3-alpha-sig.figma.com/img/0d3f/cba5/e499fb5c66e37657547280b776e52900?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hcaiV~OXr04K6f-gOa0zYM3QDa4Xy3wEGZwUG6syMzC1~1vV~Lsr~Px6xB4FMBTBBHuU~IL~VRo4o3VDdX72jhzW1LQBnMbKaxrJJo4RP9to1-k4IVq3IP2F-x1Jg5MG~1b1CQdHpnsccWsUc5JDGWHKGwQapNLWviDAjvH62yymNiO7nEXqE-3JVk4N-bse-QhTB3Reo3o7G4KSpRo8lcHTKm4YNrlvmfajc98HAYP3dk~nmIgs-ZIm7STdXJvSBUR6q1iFa0waGyho2WVbrkbJEO1CkylNvshGkTrdUld~4k2jFWspVXkWG4iB~hIDQGG4MiTa6cTJavtX-G1FTQ__"
                                     alt=""></span>
-                            Vedant Hegde <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
+                                    Rwds<span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
                         <p>
                             <span><i class="fa-solid fa-heart"></i></span>
                             210
@@ -337,14 +512,14 @@
                 <div class="card flex flex-col gap-3">
                     <div>
                         <img class="w-full"
-                            src="https://s3-alpha-sig.figma.com/img/2398/a7c8/c7c56be6cd385408d6d71fcfe7e6f1be?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R53nuYiZbu3rbk~NxrOuMcXBhjC6SVGW1DB-uCFVYLX3RuilQBEYerDf4dF6C8~hJjHJrXldHn31l6nT6FURBPS6-4AWpa27G8e1yP9V05B6nW5lXPWVQNHMu0EZYiTbv5qRxb1yaqETk~jdYBS~ecKNusKEBb~Y9jFX7omJ3c1aRM1~rZ4GZyuVMWVHxFAINqOpN5awzA6KVW7JrCK66uvJpmCPJoLHRIE9t36CetgMX7Sw6qYvFzFPLzfqEBmSZpORFy8hTUUsiuVK-8x9lJKujuuwoQiHwtBf05Bq1n64FYuecurhmnHowEKPW54Sc85AVwHVSJlQA3WivNiWjQ__"
+                            src="https://s3-alpha-sig.figma.com/img/6cf9/239f/81e3c73d674896bd4c2030919e83641e?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OiWnt6Kk9hU5V96Eux0HHP-0nqV55o8mPIHvaX48akOxsCPLN2qGomtwa17ZcVww9SGPmFydHQB00XOaMXhowE-qczV6sscf0-FhxqiDCjVaRIPpH~6aKqJF94hrFLmaornQZCnxYS3Nz4HkXUvD-6AeGs1VIbBlQGrSJR~UGUIFv96YkI9~PWVxhKVaR7pz3yUbHcOe5pvu9eCESET2Ztfkgx5YrOl0A3dQ5jm6XMDNgpZxX6vfjzA2g5EkgyNJQ~0lN1-Teph0kKuwVMkmB7vVhIaTAudbjzcIhe1lO2uJHJapghTSGPduvf-fq~TCJYblp9vzvh7flxeUrG7hbQ__"
                             alt="">
                     </div>
                     <div class="flex gap-3 justify-between items-center">
                         <p class="flex gap-2 items-center"><span><img class="rounded-full"
-                                    src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
+                                    src="https://s3-alpha-sig.figma.com/img/b2d9/5110/aa1439f0eaea2196e6c0f5712e5b4f3b?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=B5kXuH4WG0546Uve27EJr5bZptFU27wtybISuXtzxMoqUmxuqemfyeAOb-Xtqqt~6I38PBEz5oV-Bs2M4CM3DkzthXD-D4Gtq2EN6ZNTm2SdG0mPXl-peWsc5T2zECRdHzNOklVhu7E4KLUHWTVUSGH-ocTekluzqJEMcEa-kue1uR8lqv-eULd3YiqlCW5oQTmGToMF-xacOokc6Bzd-UD4FYdfAgLSVBbRvTqQNET0t3TAF07qcC0yDO731DTaHSLCSmlUkRZbsJuoNmjk6tNPLErY~kH5-wdeqWdltEzCJwdRTlMCK6PkpqYZIXP3~aH4gzHHbcoSQHlupCKOSQ__"
                                     alt=""></span>
-                            Vedant Hegde <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
+                                    Josh Warren <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
                         <p>
                             <span><i class="fa-solid fa-heart"></i></span>
                             210
@@ -356,185 +531,14 @@
                 <div class="card flex flex-col gap-3">
                     <div>
                         <img class="w-full"
-                            src="https://s3-alpha-sig.figma.com/img/2398/a7c8/c7c56be6cd385408d6d71fcfe7e6f1be?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R53nuYiZbu3rbk~NxrOuMcXBhjC6SVGW1DB-uCFVYLX3RuilQBEYerDf4dF6C8~hJjHJrXldHn31l6nT6FURBPS6-4AWpa27G8e1yP9V05B6nW5lXPWVQNHMu0EZYiTbv5qRxb1yaqETk~jdYBS~ecKNusKEBb~Y9jFX7omJ3c1aRM1~rZ4GZyuVMWVHxFAINqOpN5awzA6KVW7JrCK66uvJpmCPJoLHRIE9t36CetgMX7Sw6qYvFzFPLzfqEBmSZpORFy8hTUUsiuVK-8x9lJKujuuwoQiHwtBf05Bq1n64FYuecurhmnHowEKPW54Sc85AVwHVSJlQA3WivNiWjQ__"
+                            src="https://s3-alpha-sig.figma.com/img/24df/1e45/74c81ee1e8e7d27eaf1423bcba9844da?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cBp4vEHG4a7hXN2CJHPADWmjh4Q0IBsWnhP-YRl37Z6txmQjh-UT05q1LNgr~AoZtpme4XuA66ICwzjY8WuGX-v0ekhg-iIZCXPUNcyy2Dp9KMQk7qEyv4Rh~xDuhZYR~GfsHrymy9J4LNwgDbuUJ03aG6hBo9gkLirEzVGlaeaTAaP4WnWkvNZEGlZpyaJMVYH~OIVwwDO2I9WDGaXL8-eYCfM4Wzo5H-Z1esKASw4qm0GXAcL5DG6dnLvCdP1Ks2djOB52in3tuEGSenmpuh2~l9BUCceXnuBfIlIDdyH1F~uSK1eJFdty2nOEJQ2oNejz9w7fM0lR0b~Sog-bLQ__"
                             alt="">
                     </div>
                     <div class="flex gap-3 justify-between items-center">
                         <p class="flex gap-2 items-center"><span><img class="rounded-full"
-                                    src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
+                                    src="https://s3-alpha-sig.figma.com/img/c638/5942/1ca2ffa184f71b225bc71017ab899eb5?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bR4uQ1ZH4wjMz~bPN~SnijOYGb72JzOkqcXmTWlN80ggJTI9aAjsD1rL1fSx8QEMM8NGZ2kNj-D89co76iNJPWR-3x0kPmoxnpbR61SC2JPIvriRuPA-uKJBa~bnlPGlQbuFk5jzX-PxmdNKCfaiG3wCm2XQK0Dob5UHpPNRoLumctaMpOm-kVmA~Xhfs5FdTiyOxF9-0YDQevlxb6lbq9QlvIVXpG2svujRxjRAOsRAW7YQCPj~in5WoeF8BTIPRPJp8ikjWgbtyk6jG7T71el-LMsP1rNIP2mlCaSoRxAp05QGXbML-LT~g7hHYS4LRYQaP-zXqbF85ISae1hQYg__"
                                     alt=""></span>
-                            Vedant Hegde <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
-                        <p>
-                            <span><i class="fa-solid fa-heart"></i></span>
-                            210
-                            <span><i class="fa-solid fa-eye"></i></span>
-                            18.5k
-                        </p>
-                    </div>
-                </div>
-                <div class="card flex flex-col gap-3">
-                    <div>
-                        <img class="w-full"
-                            src="https://s3-alpha-sig.figma.com/img/2398/a7c8/c7c56be6cd385408d6d71fcfe7e6f1be?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R53nuYiZbu3rbk~NxrOuMcXBhjC6SVGW1DB-uCFVYLX3RuilQBEYerDf4dF6C8~hJjHJrXldHn31l6nT6FURBPS6-4AWpa27G8e1yP9V05B6nW5lXPWVQNHMu0EZYiTbv5qRxb1yaqETk~jdYBS~ecKNusKEBb~Y9jFX7omJ3c1aRM1~rZ4GZyuVMWVHxFAINqOpN5awzA6KVW7JrCK66uvJpmCPJoLHRIE9t36CetgMX7Sw6qYvFzFPLzfqEBmSZpORFy8hTUUsiuVK-8x9lJKujuuwoQiHwtBf05Bq1n64FYuecurhmnHowEKPW54Sc85AVwHVSJlQA3WivNiWjQ__"
-                            alt="">
-                    </div>
-                    <div class="flex gap-3 justify-between items-center">
-                        <p class="flex gap-2 items-center"><span><img class="rounded-full"
-                                    src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
-                                    alt=""></span>
-                            Vedant Hegde <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
-                        <p>
-                            <span><i class="fa-solid fa-heart"></i></span>
-                            210
-                            <span><i class="fa-solid fa-eye"></i></span>
-                            18.5k
-                        </p>
-                    </div>
-                </div>
-                <div class="card flex flex-col gap-3">
-                    <div>
-                        <img class="w-full"
-                            src="https://s3-alpha-sig.figma.com/img/2398/a7c8/c7c56be6cd385408d6d71fcfe7e6f1be?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R53nuYiZbu3rbk~NxrOuMcXBhjC6SVGW1DB-uCFVYLX3RuilQBEYerDf4dF6C8~hJjHJrXldHn31l6nT6FURBPS6-4AWpa27G8e1yP9V05B6nW5lXPWVQNHMu0EZYiTbv5qRxb1yaqETk~jdYBS~ecKNusKEBb~Y9jFX7omJ3c1aRM1~rZ4GZyuVMWVHxFAINqOpN5awzA6KVW7JrCK66uvJpmCPJoLHRIE9t36CetgMX7Sw6qYvFzFPLzfqEBmSZpORFy8hTUUsiuVK-8x9lJKujuuwoQiHwtBf05Bq1n64FYuecurhmnHowEKPW54Sc85AVwHVSJlQA3WivNiWjQ__"
-                            alt="">
-                    </div>
-                    <div class="flex gap-3 justify-between items-center">
-                        <p class="flex gap-2 items-center"><span><img class="rounded-full"
-                                    src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
-                                    alt=""></span>
-                            Vedant Hegde <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
-                        <p>
-                            <span><i class="fa-solid fa-heart"></i></span>
-                            210
-                            <span><i class="fa-solid fa-eye"></i></span>
-                            18.5k
-                        </p>
-                    </div>
-                </div>
-                <div class="card flex flex-col gap-3">
-                    <div>
-                        <img class="w-full"
-                            src="https://s3-alpha-sig.figma.com/img/2398/a7c8/c7c56be6cd385408d6d71fcfe7e6f1be?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R53nuYiZbu3rbk~NxrOuMcXBhjC6SVGW1DB-uCFVYLX3RuilQBEYerDf4dF6C8~hJjHJrXldHn31l6nT6FURBPS6-4AWpa27G8e1yP9V05B6nW5lXPWVQNHMu0EZYiTbv5qRxb1yaqETk~jdYBS~ecKNusKEBb~Y9jFX7omJ3c1aRM1~rZ4GZyuVMWVHxFAINqOpN5awzA6KVW7JrCK66uvJpmCPJoLHRIE9t36CetgMX7Sw6qYvFzFPLzfqEBmSZpORFy8hTUUsiuVK-8x9lJKujuuwoQiHwtBf05Bq1n64FYuecurhmnHowEKPW54Sc85AVwHVSJlQA3WivNiWjQ__"
-                            alt="">
-                    </div>
-                    <div class="flex gap-3 justify-between items-center">
-                        <p class="flex gap-2 items-center"><span><img class="rounded-full"
-                                    src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
-                                    alt=""></span>
-                            Vedant Hegde <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
-                        <p>
-                            <span><i class="fa-solid fa-heart"></i></span>
-                            210
-                            <span><i class="fa-solid fa-eye"></i></span>
-                            18.5k
-                        </p>
-                    </div>
-                </div>
-                <div class="card flex flex-col gap-3">
-                    <div>
-                        <img class="w-full"
-                            src="https://s3-alpha-sig.figma.com/img/2398/a7c8/c7c56be6cd385408d6d71fcfe7e6f1be?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R53nuYiZbu3rbk~NxrOuMcXBhjC6SVGW1DB-uCFVYLX3RuilQBEYerDf4dF6C8~hJjHJrXldHn31l6nT6FURBPS6-4AWpa27G8e1yP9V05B6nW5lXPWVQNHMu0EZYiTbv5qRxb1yaqETk~jdYBS~ecKNusKEBb~Y9jFX7omJ3c1aRM1~rZ4GZyuVMWVHxFAINqOpN5awzA6KVW7JrCK66uvJpmCPJoLHRIE9t36CetgMX7Sw6qYvFzFPLzfqEBmSZpORFy8hTUUsiuVK-8x9lJKujuuwoQiHwtBf05Bq1n64FYuecurhmnHowEKPW54Sc85AVwHVSJlQA3WivNiWjQ__"
-                            alt="">
-                    </div>
-                    <div class="flex gap-3 justify-between items-center">
-                        <p class="flex gap-2 items-center"><span><img class="rounded-full"
-                                    src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
-                                    alt=""></span>
-                            Vedant Hegde <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
-                        <p>
-                            <span><i class="fa-solid fa-heart"></i></span>
-                            210
-                            <span><i class="fa-solid fa-eye"></i></span>
-                            18.5k
-                        </p>
-                    </div>
-                </div>
-                <div class="card flex flex-col gap-3">
-                    <div>
-                        <img class="w-full"
-                            src="https://s3-alpha-sig.figma.com/img/2398/a7c8/c7c56be6cd385408d6d71fcfe7e6f1be?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R53nuYiZbu3rbk~NxrOuMcXBhjC6SVGW1DB-uCFVYLX3RuilQBEYerDf4dF6C8~hJjHJrXldHn31l6nT6FURBPS6-4AWpa27G8e1yP9V05B6nW5lXPWVQNHMu0EZYiTbv5qRxb1yaqETk~jdYBS~ecKNusKEBb~Y9jFX7omJ3c1aRM1~rZ4GZyuVMWVHxFAINqOpN5awzA6KVW7JrCK66uvJpmCPJoLHRIE9t36CetgMX7Sw6qYvFzFPLzfqEBmSZpORFy8hTUUsiuVK-8x9lJKujuuwoQiHwtBf05Bq1n64FYuecurhmnHowEKPW54Sc85AVwHVSJlQA3WivNiWjQ__"
-                            alt="">
-                    </div>
-                    <div class="flex gap-3 justify-between items-center">
-                        <p class="flex gap-2 items-center"><span><img class="rounded-full"
-                                    src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
-                                    alt=""></span>
-                            Vedant Hegde <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
-                        <p>
-                            <span><i class="fa-solid fa-heart"></i></span>
-                            210
-                            <span><i class="fa-solid fa-eye"></i></span>
-                            18.5k
-                        </p>
-                    </div>
-                </div>
-                <div class="card flex flex-col gap-3">
-                    <div>
-                        <img class="w-full"
-                            src="https://s3-alpha-sig.figma.com/img/2398/a7c8/c7c56be6cd385408d6d71fcfe7e6f1be?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R53nuYiZbu3rbk~NxrOuMcXBhjC6SVGW1DB-uCFVYLX3RuilQBEYerDf4dF6C8~hJjHJrXldHn31l6nT6FURBPS6-4AWpa27G8e1yP9V05B6nW5lXPWVQNHMu0EZYiTbv5qRxb1yaqETk~jdYBS~ecKNusKEBb~Y9jFX7omJ3c1aRM1~rZ4GZyuVMWVHxFAINqOpN5awzA6KVW7JrCK66uvJpmCPJoLHRIE9t36CetgMX7Sw6qYvFzFPLzfqEBmSZpORFy8hTUUsiuVK-8x9lJKujuuwoQiHwtBf05Bq1n64FYuecurhmnHowEKPW54Sc85AVwHVSJlQA3WivNiWjQ__"
-                            alt="">
-                    </div>
-                    <div class="flex gap-3 justify-between items-center">
-                        <p class="flex gap-2 items-center"><span><img class="rounded-full"
-                                    src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
-                                    alt=""></span>
-                            Vedant Hegde <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
-                        <p>
-                            <span><i class="fa-solid fa-heart"></i></span>
-                            210
-                            <span><i class="fa-solid fa-eye"></i></span>
-                            18.5k
-                        </p>
-                    </div>
-                </div>
-                <div class="card flex flex-col gap-3">
-                    <div>
-                        <img class="w-full"
-                            src="https://s3-alpha-sig.figma.com/img/2398/a7c8/c7c56be6cd385408d6d71fcfe7e6f1be?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R53nuYiZbu3rbk~NxrOuMcXBhjC6SVGW1DB-uCFVYLX3RuilQBEYerDf4dF6C8~hJjHJrXldHn31l6nT6FURBPS6-4AWpa27G8e1yP9V05B6nW5lXPWVQNHMu0EZYiTbv5qRxb1yaqETk~jdYBS~ecKNusKEBb~Y9jFX7omJ3c1aRM1~rZ4GZyuVMWVHxFAINqOpN5awzA6KVW7JrCK66uvJpmCPJoLHRIE9t36CetgMX7Sw6qYvFzFPLzfqEBmSZpORFy8hTUUsiuVK-8x9lJKujuuwoQiHwtBf05Bq1n64FYuecurhmnHowEKPW54Sc85AVwHVSJlQA3WivNiWjQ__"
-                            alt="">
-                    </div>
-                    <div class="flex gap-3 justify-between items-center">
-                        <p class="flex gap-2 items-center"><span><img class="rounded-full"
-                                    src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
-                                    alt=""></span>
-                            Vedant Hegde <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
-                        <p>
-                            <span><i class="fa-solid fa-heart"></i></span>
-                            210
-                            <span><i class="fa-solid fa-eye"></i></span>
-                            18.5k
-                        </p>
-                    </div>
-                </div>
-                <div class="card flex flex-col gap-3">
-                    <div>
-                        <img class="w-full"
-                            src="https://s3-alpha-sig.figma.com/img/2398/a7c8/c7c56be6cd385408d6d71fcfe7e6f1be?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R53nuYiZbu3rbk~NxrOuMcXBhjC6SVGW1DB-uCFVYLX3RuilQBEYerDf4dF6C8~hJjHJrXldHn31l6nT6FURBPS6-4AWpa27G8e1yP9V05B6nW5lXPWVQNHMu0EZYiTbv5qRxb1yaqETk~jdYBS~ecKNusKEBb~Y9jFX7omJ3c1aRM1~rZ4GZyuVMWVHxFAINqOpN5awzA6KVW7JrCK66uvJpmCPJoLHRIE9t36CetgMX7Sw6qYvFzFPLzfqEBmSZpORFy8hTUUsiuVK-8x9lJKujuuwoQiHwtBf05Bq1n64FYuecurhmnHowEKPW54Sc85AVwHVSJlQA3WivNiWjQ__"
-                            alt="">
-                    </div>
-                    <div class="flex gap-3 justify-between items-center">
-                        <p class="flex gap-2 items-center"><span><img class="rounded-full"
-                                    src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
-                                    alt=""></span>
-                            Vedant Hegde <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
-                        <p>
-                            <span><i class="fa-solid fa-heart"></i></span>
-                            210
-                            <span><i class="fa-solid fa-eye"></i></span>
-                            18.5k
-                        </p>
-                    </div>
-                </div>
-                <div class="card flex flex-col gap-3">
-                    <div>
-                        <img class="w-full"
-                            src="https://s3-alpha-sig.figma.com/img/2398/a7c8/c7c56be6cd385408d6d71fcfe7e6f1be?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R53nuYiZbu3rbk~NxrOuMcXBhjC6SVGW1DB-uCFVYLX3RuilQBEYerDf4dF6C8~hJjHJrXldHn31l6nT6FURBPS6-4AWpa27G8e1yP9V05B6nW5lXPWVQNHMu0EZYiTbv5qRxb1yaqETk~jdYBS~ecKNusKEBb~Y9jFX7omJ3c1aRM1~rZ4GZyuVMWVHxFAINqOpN5awzA6KVW7JrCK66uvJpmCPJoLHRIE9t36CetgMX7Sw6qYvFzFPLzfqEBmSZpORFy8hTUUsiuVK-8x9lJKujuuwoQiHwtBf05Bq1n64FYuecurhmnHowEKPW54Sc85AVwHVSJlQA3WivNiWjQ__"
-                            alt="">
-                    </div>
-                    <div class="flex gap-3 justify-between items-center">
-                        <p class="flex gap-2 items-center"><span><img class="rounded-full"
-                                    src="https://s3-alpha-sig.figma.com/img/c86a/8eb9/55594929b33a3db049b10c1cad1cdf34?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c1Y0Aua0NhuZ2DpSzpg2RGy8j-3YSf7g2IevHfc1v9S38QT9TxyrJIYxkjPZ05Zsn2UXpGjGDgTP~~FI~TIb8PpDzlbKe4YXug~YjgFy7nFwqipKLWe4H40kPy6MgzWn3AEKSdNxJrKDSpY3e5npr67MvAkoVPQxVaurUjXv5S8q6Vw-tlgLFdl061VJNe8boiDh4KQCtHljuP2CsvTJMr4LeRRKubOyLcRFGb1cMfskIOZS1q8Hx53NZ0tbo6DAUKIfrpbmrV~9DLjtQoimr31p7ccjFwjuN9gNUUWiot~HmyHf1w~cnMxZcSxtj7qJqDYXUWKeANvxfPoc-24OYA__"
-                                    alt=""></span>
-                            Vedant Hegde <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
+                                    Purrweb UI/UX Ag <span class="py-1 px-2 bg-slate-600 text-white rounded-full ">PRO</span></p>
                         <p>
                             <span><i class="fa-solid fa-heart"></i></span>
                             210
@@ -551,7 +555,8 @@
             <button class="text-fuchsia-500">or sign in</button>
         </section>
     </main>
-    <footer class="my-5 max-w-[1440px] gap-3 px-5 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
+    <footer
+        class="my-5 max-w-[1440px] gap-3 px-5 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
         <ul class="flex flex-col gap-4">
             <div>
                 <img src="./img/Logo.svg" alt="">
